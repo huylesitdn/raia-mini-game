@@ -245,6 +245,7 @@ img {
   background-image: url(../images/Ticket-box.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .game-play .play-now {
