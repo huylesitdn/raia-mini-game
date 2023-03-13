@@ -247,6 +247,22 @@ img {
   background-size: contain;
 }
 
+.game-play .play-now {
+  background-image: url(../images/play-btn.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 50px;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+}
+
+.game-play .play-now:active,
+.game-play .play-now:visited {
+  background-image: url(../images/play-btn-click.png);
+}
+
 .winner-list {}
 
 @media only screen and (max-width: 1700px) {
@@ -362,7 +378,7 @@ img {
     width: 400px;
     height: 250px;
   }
-  
+
   .main::after {
     right: -50px;
     bottom: -50px;
@@ -424,7 +440,7 @@ img {
     width: 400px;
     height: 250px;
   }
-  
+
   .main::after {
     right: -50px;
     bottom: -50px;
@@ -486,7 +502,7 @@ img {
     width: 400px;
     height: 250px;
   }
-  
+
   .main::after {
     right: -50px;
     bottom: -50px;
@@ -548,7 +564,7 @@ img {
     width: 300px;
     height: 200px;
   }
-  
+
   .main::after {
     right: -50px;
     bottom: -50px;
@@ -602,20 +618,21 @@ img {
     background-size: cover;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
   }
 
   .main::before {
     left: -50px;
     bottom: -50px;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
   }
-  
+
   .main::after {
     right: -50px;
     bottom: -50px;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
   }
 
   .prize-list {
@@ -657,5 +674,10 @@ img {
 
   .game-play .content .item {
     height: calc((400px - 16px) / 3);
+  }
+
+  .game-play .action>div {
+    min-width: 50%;
+    min-height: 50px;
   }
 }
