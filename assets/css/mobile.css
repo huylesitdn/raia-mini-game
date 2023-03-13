@@ -678,7 +678,7 @@ img {
   }
 
   .game-play .action>div {
-    min-width: 50%;
+    min-width: 45%;
     min-height: 50px;
   }
 }
